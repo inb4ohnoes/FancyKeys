@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3991006195F954D003B59E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3991005195F954D003B59E3 /* main.m */; };
+		D3991009195F954D003B59E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3991008195F954D003B59E3 /* AppDelegate.m */; };
+		D399100C195F954D003B59E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D399100B195F954D003B59E3 /* ViewController.m */; };
+		D399100F195F954D003B59E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D399100D195F954D003B59E3 /* Main.storyboard */; };
+		D3991011195F954D003B59E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3991010195F954D003B59E3 /* Images.xcassets */; };
+		D399101D195F954D003B59E3 /* FancyKeysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D399101C195F954D003B59E3 /* FancyKeysTests.m */; };
+		D3991030195F9570003B59E3 /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D399102F195F9570003B59E3 /* KeyboardViewController.m */; };
+		D3991033195F9570003B59E3 /* co.Flame.FancyKeys.FancyKeys-Keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D399102A195F9570003B59E3 /* co.Flame.FancyKeys.FancyKeys-Keyboard.appex */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3991017195F954D003B59E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3990FF8195F954D003B59E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3990FFF195F954D003B59E3;
+			remoteInfo = FancyKeys;
+		};
+		D3991031195F9570003B59E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3990FF8195F954D003B59E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3991029195F9570003B59E3;
+			remoteInfo = "FancyKeys Keyboard";
+		};
+		D3991034195F9570003B59E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3990FF8195F954D003B59E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3991029195F9570003B59E3;
+			remoteInfo = "FancyKeys Keyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3991039195F9570003B59E3 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D3991033195F9570003B59E3 /* co.Flame.FancyKeys.FancyKeys-Keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D3991000195F954D003B59E3 /* FancyKeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FancyKeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3991004195F954D003B59E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3991005195F954D003B59E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3991007195F954D003B59E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3991008195F954D003B59E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D399100A195F954D003B59E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D399100B195F954D003B59E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D399100E195F954D003B59E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3991010195F954D003B59E3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D3991016195F954D003B59E3 /* FancyKeysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FancyKeysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D399101B195F954D003B59E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D399101C195F954D003B59E3 /* FancyKeysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FancyKeysTests.m; sourceTree = "<group>"; };
+		D399102A195F9570003B59E3 /* co.Flame.FancyKeys.FancyKeys-Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "co.Flame.FancyKeys.FancyKeys-Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D399102D195F9570003B59E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D399102E195F9570003B59E3 /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		D399102F195F9570003B59E3 /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3990FFD195F954D003B59E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3991013195F954D003B59E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3991027195F9570003B59E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3990FF7195F954D003B59E3 = {
+			isa = PBXGroup;
+			children = (
+				D3991002195F954D003B59E3 /* FancyKeys */,
+				D3991019195F954D003B59E3 /* FancyKeysTests */,
+				D399102B195F9570003B59E3 /* FancyKeys Keyboard */,
+				D3991001195F954D003B59E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3991001195F954D003B59E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3991000195F954D003B59E3 /* FancyKeys.app */,
+				D3991016195F954D003B59E3 /* FancyKeysTests.xctest */,
+				D399102A195F9570003B59E3 /* co.Flame.FancyKeys.FancyKeys-Keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3991002195F954D003B59E3 /* FancyKeys */ = {
+			isa = PBXGroup;
+			children = (
+				D3991007195F954D003B59E3 /* AppDelegate.h */,
+				D3991008195F954D003B59E3 /* AppDelegate.m */,
+				D399100A195F954D003B59E3 /* ViewController.h */,
+				D399100B195F954D003B59E3 /* ViewController.m */,
+				D399100D195F954D003B59E3 /* Main.storyboard */,
+				D3991010195F954D003B59E3 /* Images.xcassets */,
+				D3991003195F954D003B59E3 /* Supporting Files */,
+			);
+			path = FancyKeys;
+			sourceTree = "<group>";
+		};
+		D3991003195F954D003B59E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3991004195F954D003B59E3 /* Info.plist */,
+				D3991005195F954D003B59E3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D3991019195F954D003B59E3 /* FancyKeysTests */ = {
+			isa = PBXGroup;
+			children = (
+				D399101C195F954D003B59E3 /* FancyKeysTests.m */,
+				D399101A195F954D003B59E3 /* Supporting Files */,
+			);
+			path = FancyKeysTests;
+			sourceTree = "<group>";
+		};
+		D399101A195F954D003B59E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D399101B195F954D003B59E3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D399102B195F9570003B59E3 /* FancyKeys Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D399102E195F9570003B59E3 /* KeyboardViewController.h */,
+				D399102F195F9570003B59E3 /* KeyboardViewController.m */,
+				D399102C195F9570003B59E3 /* Supporting Files */,
+			);
+			path = "FancyKeys Keyboard";
+			sourceTree = "<group>";
+		};
+		D399102C195F9570003B59E3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D399102D195F9570003B59E3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3990FFF195F954D003B59E3 /* FancyKeys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3991020195F954D003B59E3 /* Build configuration list for PBXNativeTarget "FancyKeys" */;
+			buildPhases = (
+				D3990FFC195F954D003B59E3 /* Sources */,
+				D3990FFD195F954D003B59E3 /* Frameworks */,
+				D3990FFE195F954D003B59E3 /* Resources */,
+				D3991039195F9570003B59E3 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3991032195F9570003B59E3 /* PBXTargetDependency */,
+				D3991035195F9570003B59E3 /* PBXTargetDependency */,
+			);
+			name = FancyKeys;
+			productName = FancyKeys;
+			productReference = D3991000195F954D003B59E3 /* FancyKeys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3991015195F954D003B59E3 /* FancyKeysTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3991023195F954D003B59E3 /* Build configuration list for PBXNativeTarget "FancyKeysTests" */;
+			buildPhases = (
+				D3991012195F954D003B59E3 /* Sources */,
+				D3991013195F954D003B59E3 /* Frameworks */,
+				D3991014195F954D003B59E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3991018195F954D003B59E3 /* PBXTargetDependency */,
+			);
+			name = FancyKeysTests;
+			productName = FancyKeysTests;
+			productReference = D3991016195F954D003B59E3 /* FancyKeysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3991029195F9570003B59E3 /* FancyKeys Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3991036195F9570003B59E3 /* Build configuration list for PBXNativeTarget "FancyKeys Keyboard" */;
+			buildPhases = (
+				D3991026195F9570003B59E3 /* Sources */,
+				D3991027195F9570003B59E3 /* Frameworks */,
+				D3991028195F9570003B59E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FancyKeys Keyboard";
+			productName = "FancyKeys Keyboard";
+			productReference = D399102A195F9570003B59E3 /* co.Flame.FancyKeys.FancyKeys-Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3990FF8195F954D003B59E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Flame Co.";
+				TargetAttributes = {
+					D3990FFF195F954D003B59E3 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					D3991015195F954D003B59E3 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = D3990FFF195F954D003B59E3;
+					};
+					D3991029195F9570003B59E3 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = D3990FFB195F954D003B59E3 /* Build configuration list for PBXProject "FancyKeys" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3990FF7195F954D003B59E3;
+			productRefGroup = D3991001195F954D003B59E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3990FFF195F954D003B59E3 /* FancyKeys */,
+				D3991015195F954D003B59E3 /* FancyKeysTests */,
+				D3991029195F9570003B59E3 /* FancyKeys Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3990FFE195F954D003B59E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D399100F195F954D003B59E3 /* Main.storyboard in Resources */,
+				D3991011195F954D003B59E3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3991014195F954D003B59E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3991028195F9570003B59E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3990FFC195F954D003B59E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D399100C195F954D003B59E3 /* ViewController.m in Sources */,
+				D3991009195F954D003B59E3 /* AppDelegate.m in Sources */,
+				D3991006195F954D003B59E3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3991012195F954D003B59E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D399101D195F954D003B59E3 /* FancyKeysTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3991026195F9570003B59E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3991030195F9570003B59E3 /* KeyboardViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3991018195F954D003B59E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3990FFF195F954D003B59E3 /* FancyKeys */;
+			targetProxy = D3991017195F954D003B59E3 /* PBXContainerItemProxy */;
+		};
+		D3991032195F9570003B59E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3991029195F9570003B59E3 /* FancyKeys Keyboard */;
+			targetProxy = D3991031195F9570003B59E3 /* PBXContainerItemProxy */;
+		};
+		D3991035195F9570003B59E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3991029195F9570003B59E3 /* FancyKeys Keyboard */;
+			targetProxy = D3991034195F9570003B59E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D399100D195F954D003B59E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D399100E195F954D003B59E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D399101E195F954D003B59E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D399101F195F954D003B59E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3991021195F954D003B59E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FancyKeys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D3991022195F954D003B59E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = FancyKeys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D3991024195F954D003B59E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FancyKeys.app/FancyKeys";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FancyKeysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		D3991025195F954D003B59E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FancyKeys.app/FancyKeys";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FancyKeysTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		D3991037195F9570003B59E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FancyKeys Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "co.Flame.FancyKeys.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D3991038195F9570003B59E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "FancyKeys Keyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "co.Flame.FancyKeys.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3990FFB195F954D003B59E3 /* Build configuration list for PBXProject "FancyKeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D399101E195F954D003B59E3 /* Debug */,
+				D399101F195F954D003B59E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3991020195F954D003B59E3 /* Build configuration list for PBXNativeTarget "FancyKeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3991021195F954D003B59E3 /* Debug */,
+				D3991022195F954D003B59E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3991023195F954D003B59E3 /* Build configuration list for PBXNativeTarget "FancyKeysTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3991024195F954D003B59E3 /* Debug */,
+				D3991025195F954D003B59E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D3991036195F9570003B59E3 /* Build configuration list for PBXNativeTarget "FancyKeys Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3991037195F9570003B59E3 /* Debug */,
+				D3991038195F9570003B59E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3990FF8195F954D003B59E3 /* Project object */;
+}
