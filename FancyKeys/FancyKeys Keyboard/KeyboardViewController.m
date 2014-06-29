@@ -34,7 +34,6 @@
     // Perform custom UI setup here
     //mandatory next keyboard button
     self.nextKeyboardButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    self.nextKeyboardButton.backgroundColor = [UIColor whiteColor];
     self.nextKeyboardButton.layer.cornerRadius = 5.f;
     self.nextKeyboardButton.clipsToBounds = YES;
     
@@ -52,7 +51,6 @@
     
     //the only button we will ever need
     self.lennyFaceButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    self.lennyFaceButton.backgroundColor = [UIColor whiteColor];
     self.lennyFaceButton.layer.cornerRadius = 5.f;
     self.lennyFaceButton.clipsToBounds = YES;
     
@@ -90,13 +88,19 @@
     // The app has just changed the document's contents, the document context has been updated.
     
     UIColor *textColor = nil;
+    UIColor *buttonColor = nil;
     if (self.textDocumentProxy.keyboardAppearance == UIKeyboardAppearanceDark) {
         textColor = [UIColor whiteColor];
+        buttonColor = [UIColor colorWithWhite:0.717 alpha:0.750];
     } else {
         textColor = [UIColor blackColor];
+        buttonColor = [UIColor whiteColor];
     }
     [self.nextKeyboardButton setTitleColor:textColor forState:UIControlStateNormal];
     [self.lennyFaceButton setTitleColor:textColor forState:UIControlStateNormal];
+    
+    [self.nextKeyboardButton setBackgroundColor:buttonColor];
+    [self.lennyFaceButton setBackgroundColor:buttonColor];
 }
 
 @end
